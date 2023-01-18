@@ -3,7 +3,7 @@ document.getElementById('btn--select').addEventListener('click',function(){
   if(n>=0 && n<=85){
     if (Number.isInteger(Number(n))) {
       localStorage.setItem('n',n);
-      open("Confirmation.html","_self");
+      open("confirmation.html","_self");
     } else {
       alert("The input can only be either zero or a positive integer")
     }
